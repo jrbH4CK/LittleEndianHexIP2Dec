@@ -3,11 +3,15 @@ This script is made for myself to never forget how to do this stuff. Little endi
 
 ## How it works
 When you type the command ```cat /proc/net/route``` the ip address are show in little endian hexadecimal format, like this:
+
 ![Image 1](./img/command.png)
+
 So we can observe the ip in that format is ```02 02 00 0A``` so this means ```2 2 0 10``` in decimal, then the decimal ip will be ```10.0.2.2```.
 
 In the study case the ip will result easy to transform but if the ip is more complex will be hard to transform, so I create this python3 script to simplify the process.
 ```python3
 ```
+
 ![Image 2](./img/transform.png)
+
 As we can observe on the image bellow the traduction is correct. Thanks!
