@@ -40,4 +40,4 @@ while True:
   <img src="./img/transform.png" alt="Image 2" />
 </div>
 
-As we can observe on the image bellow the traduction is correct. Thanks!
+As we can observe on the image bellow the traduction is correct. If you want to use the scritp you can copy and paste in a file or simply download from the files. Thanks!
